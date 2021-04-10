@@ -5,7 +5,7 @@ $.get("https://ssl.geoplugin.net/json.gp?k=36a168c612a12e85", function (resp) {
 
 function notify(type, name, message){
     (()=>{
-      var audio = new Audio('nsound.mp3');
+      var audio = new Audio('sound/nsound.mp3');
       audio.play();
       let n = document.createElement("div");
       let id = Math.random().toString(36).substr(2,10);
