@@ -20,7 +20,7 @@ function notify(type, name, message){
             break;
           }
         }
-      },2500);
+      },2000);
     })();
   }
   
