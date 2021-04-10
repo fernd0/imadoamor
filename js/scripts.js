@@ -21,7 +21,7 @@ function notify(type, name, message){
             break;
           }
         }
-      },2000);
+      },2500);
     })();
   }
   
