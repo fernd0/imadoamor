@@ -39,7 +39,7 @@ body {
 
   @media only screen and (max-width: 768px) {
 
-    #notification-area {
+    #notification-area .notification {
      position: fixed;
      right: 10px; 
      top: 20px;
