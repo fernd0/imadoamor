@@ -36,6 +36,15 @@ body {
     left:20px;
     animation:showNotification 500ms ease-in-out forwards;
   }
+
+  @media (min-resolution: 144dpi) {
+    #notification-area {
+     position: fixed;
+     right: 10px; 
+     top: 20px;
+     }
+   }
+
   i{
     font-size: 25px;
     color: #fff;
