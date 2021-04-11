@@ -21,7 +21,7 @@ function notify(type, name, message){
             break;
           }
         }
-      },2500);
+      },5000);
     })();
   }
   
@@ -30,7 +30,7 @@ function notify(type, name, message){
   //	notify("success", "Luisa", " e outras 7 pessoas compraram este produto!");
   //	notify("success", "Maria", " e outras 24 pessoas compraram este produto!");
   //	notify("success", "Juliana", " e outras 18 pessoas compraram este produto!");
-  }, 1000);
+  }, 2000);
   
   
 
