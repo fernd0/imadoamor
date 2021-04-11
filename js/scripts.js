@@ -21,16 +21,16 @@ function notify(type, name, message){
             break;
           }
         }
-      },50000);
+      },3500);
     })();
   }
-  
-  setTimeout(function() { 
-      notify("success", "🛒 Ana", " e outras 12 pessoas compraram este produto!");
-  //	notify("success", "Luisa", " e outras 7 pessoas compraram este produto!");
-  //	notify("success", "Maria", " e outras 24 pessoas compraram este produto!");
-  //	notify("success", "Juliana", " e outras 18 pessoas compraram este produto!");
-  }, 2000);
+
+  // setTimeout(function() { 
+  // //    notify("success", "🛒 Ana", " e outras 12 pessoas compraram este produto!");
+  // //	notify("success", "Luisa", " e outras 7 pessoas compraram este produto!");
+  // //	notify("success", "Maria", " e outras 24 pessoas compraram este produto!");
+  // //	notify("success", "Juliana", " e outras 18 pessoas compraram este produto!");
+  // }, 2000);
   
   
 
