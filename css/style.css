@@ -12,15 +12,6 @@ body {
     background-repeat: repeat-y
 }
 
-.cov
-{
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    left: 0
-}
-
 #notification-area {
     position:fixed;
     top:0px;
