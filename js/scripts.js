@@ -80,6 +80,7 @@ $(document).ready(function(){
             }, 3500);
         }
     }
+  }
 
     if (e.data === 2) {
       $(".cov").show();
