@@ -10,7 +10,7 @@ body {
     background-position: top center;
     background-size: 100% auto;
     background-repeat: repeat-y
-}
+}   
 
 #notification-area {
     position:fixed;
@@ -21,6 +21,7 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
+    pointer-events: none;
   }
   #notification-area .notification {
     position:relative;
