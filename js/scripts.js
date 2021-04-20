@@ -25,20 +25,28 @@ function notify(type, name, message){
     })();
   }
 
-  // setTimeout(function() { 
-  // //    notify("success", "🛒 Ana", " e outras 12 pessoas compraram este produto!");
-  // //	notify("success", "Luisa", " e outras 7 pessoas compraram este produto!");
-  // //	notify("success", "Maria", " e outras 24 pessoas compraram este produto!");
-  // //	notify("success", "Juliana", " e outras 18 pessoas compraram este produto!");
-  // }, 2000);
-  
+  setTimeout(function() {
+    notify("success", "🛒 Ana", " e outras 12 pessoas compraram este produto!");
+  }, 1775000);
+
+  setTimeout(function() {
+  	notify("success", "🛒 Luisa", " e outras 7 pessoas compraram este produto!");
+  }, 1800000);
+
+  setTimeout(function() {
+	  notify("success", "🛒 Maria", " e outras 24 pessoas compraram este produto!");
+  }, 1828800);
+
+  setTimeout(function() {
+    notify("success", "🛒 Lilian", " e outras 18 pessoas compraram este produto!");
+  }, 2053800);
   
 
 $(document).ready(function(){
 
     setTimeout(function(){
         $("#button_chechout_hero").show();
-        $("#button_chechout_final").show()}, 1470  * 1 * 1000)
+        $("#button_chechout_final").show()}, 1760000)
     });
 
  //1550
