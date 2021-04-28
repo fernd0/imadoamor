@@ -83,6 +83,10 @@ body {
     max-width: 100%
 }
 
+#section-c{
+    display: none;
+}
+
 #button_chechout_hero,
 #button_chechout_final {
     display: none
