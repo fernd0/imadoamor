@@ -46,7 +46,7 @@ $(document).ready(function(){
 
     setTimeout(function(){
         $("#section-c").show();
-    }, 120000)
+    }, 264000)
 
     setTimeout(function(){
         $("#button_chechout_hero").show();
