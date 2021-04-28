@@ -45,6 +45,10 @@ function notify(type, name, message){
 $(document).ready(function(){
 
     setTimeout(function(){
+        $("#section-c").show();
+    }, 120000)
+
+    setTimeout(function(){
         $("#button_chechout_hero").show();
         $("#button_chechout_final").show()}, 1760000)
     });
