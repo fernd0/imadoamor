@@ -27,7 +27,7 @@ function notify(type, name, message){
 
   setTimeout(function() {
     notify("success", "Ana", " e outras 12 pessoas compraram este produto!");
-  }, 1775000);
+  }, 1710000);
 
   setTimeout(function() {
   	notify("success", "Luisa", " e outras 7 pessoas compraram este produto!");
@@ -46,7 +46,7 @@ $(document).ready(function(){
 
     setTimeout(function(){
         $("#button_chechout_hero").show();
-        $("#button_chechout_final").show()}, 1760000)
+        $("#button_chechout_final").show()}, 1692000)
     });
 
  //1550
