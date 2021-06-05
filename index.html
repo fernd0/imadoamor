@@ -85,7 +85,14 @@
                 vida amorosa!</div>
             <div class="row">
                 <div class="col">
-                    <script src="https://fast.wistia.com/embed/medias/7gnjzuu8pf.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_7gnjzuu8pf seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/7gnjzuu8pf/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>                    
+                    <div class="thrv_wrapper" data-css="tve-u-1726b5a2aa7">
+                        <div class="responsive-video">
+                          <div id="cfs"></div>
+                          <div class="cov" style="background-image: url('./img/loading-video.gif'); display: block;"></div>
+                          <div class="covall"></div>
+                          <div id="player"></div>
+                        </div>
+                      </div>
                 </div>
             </div>
             <div class="row">
@@ -452,6 +459,7 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript">var muteStatus;var c=0;var tag=document.createElement('script');tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName('script')[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;function onYouTubeIframeAPIReady(){player=new YT.Player('player',{videoId:"Q2PVO9KSSZ4",playerVars:{'autoplay':0,'cc_load_policy':0,'controls':0,'disablekb':1,'fs':0,'playsinline':1,'modestbranding':1,'iv_load_policy':3,'rel':0,'showinfo':0},events:{'onReady':onPlayerReady,'onStateChange':onPlayerStateChange,'onError':onPlayerError}})}function mutevid(){player.mute();player.setVolume(0);muteStatus=1}function unmutevid(){player.unMute();player.setVolume(100);muteStatus=0}function resetvid(){jQuery("#loadingVideo").hide();jQuery(".cov").show();player.pauseVideo();unmutevid();player.seekTo(0)}function onPlayerReady(){player.seekTo(0);jQuery(".cov").css("background-image","url('comecar_video.png')");player.playVideo()}function onPlayerError(e){player.stopVideo();jQuery(".cov").css("background-image","url('video-cover.png')");jQuery(".cov").show();jQuery("#loadingVideo").hide();jQuery("#cfs").hide()}function onPlayerStateChange(e){if(e.data===-1){c+=1;if(c>1){setTimeout(function(){if(player.getPlayerState()===-1){resetvid()}},3500)}}if(e.data===1){jQuery("#loadingVideo").hide();jQuery(".cov").hide();jQuery(".cov").css("background-image","url('video-cover.png')");if(muteStatus==1){jQuery("#cfs").show()}else{jQuery("#cfs").hide();unmutevid()}}if(e.data===2){jQuery("#loadingVideo").hide();jQuery("#cfs").hide();jQuery(".cov").show();unmutevid()}if(e.data===3){}if(e.data===0||e.data===5){jQuery("#loadingVideo").hide();jQuery("#cfs").hide();jQuery(".cov").css("background-image","url('video-cover.png')");jQuery(".cov").show()}}jQuery(".cov").click(function(){player.playVideo();jQuery(".cov").hide()});jQuery(".covall").click(function(){player.pauseVideo();jQuery("#cfs").hide();jQuery(".cov").show()});jQuery("#cfs").click(function(){unmutevid();jQuery("#cfs").hide()});</script> ;
     <div id="notification-area"> </div>
 </body>
 
