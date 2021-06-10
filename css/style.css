@@ -314,13 +314,16 @@ h1 {
 }
 
 .c-section {
-    display: none;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
     background-image: url(../img/bg-shadow-y.png);
     background-repeat: repeat-x;
     background-size: auto 250px
+}
+
+#comentarios-c{
+    display: none;
 }
 
 .c1,
