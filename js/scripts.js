@@ -38,7 +38,7 @@ setTimeout(function () {
     notify("success", "Lilian", " e outras 18 pessoas compraram este produto!");
 }, 2053800);
 setTimeout(function () {
-    $("#c-section").show();
+    $("#comentarios-c").show();
 }, 84000);
 
 $(document).ready(function () {
