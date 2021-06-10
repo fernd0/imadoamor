@@ -314,6 +314,7 @@ h1 {
 }
 
 .c-section {
+    display: none;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;

@@ -24,6 +24,7 @@ function notify(type, name, message) {
         }, 3500);
     })();
 }
+
 setTimeout(function () {
     notify("success", "Ana", " e outras 12 pessoas compraram este produto!");
 }, 1710000);
@@ -36,6 +37,10 @@ setTimeout(function () {
 setTimeout(function () {
     notify("success", "Lilian", " e outras 18 pessoas compraram este produto!");
 }, 2053800);
+setTimeout(function () {
+    $("#c-section").show();
+}, 84000);
+
 $(document).ready(function () {
     setTimeout(function () {
         $("#button_chechout_hero").show();
