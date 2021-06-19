@@ -104,7 +104,7 @@ h2{line-height:2.7rem;}
 .bt-faq{
 	margin:8px 0;
 	text-align: left;
-	
+	border-radius: 15px;
 	border: none;
 	color: #fff;
 	font-family: 'Montserrat';
