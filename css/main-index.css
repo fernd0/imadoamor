@@ -79,45 +79,6 @@ h2{line-height:2.7rem;}
 .strike{
 	text-decoration: line-through;
 }
-
-.container{
-	max-width: 980px;
-}
-
-.modal-title{
-	font-family: "Monda";
-	color: black;
-	text-transform: uppercase;
-	font-weight: 700;
-}
-
-	body .modal-dialog{
-	max-width:  350px;
-	}
-		.modal {
-	  text-align: center;
-	  padding: 0!important;
-	}
-
-	.modal-body {
-    padding: 0px 30px;
-}
-
-
-	.modal:before {
-	  content: '';
-	  display: inline-block;
-	  height: 100%;
-	  vertical-align: middle;
-	  margin-right: -4px;
-	}
-
-	.modal-dialog {
-	  display: inline-block;
-	  text-align: left;
-	  vertical-align: middle;
-	}
-
 #preMessage{
 	font-weight: bold;
 }
