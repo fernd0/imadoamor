@@ -116,7 +116,7 @@ h2{line-height:2.7rem;}
 	font-size: 18px;
 	padding: 5px 10px;
 	background: rgb(160,254,255);
-	background: linear-gradient(0deg, rgba(160,254,255,1) 0%, rgba(1,137,177,1) 100%);
+	background: linear-gradient(0deg, rgba(160,254,255,1) 0%, rgba(1,137,177,1) 17%);
 }
 
 .card-body {
