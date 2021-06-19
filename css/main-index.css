@@ -97,9 +97,6 @@ h2{line-height:2.7rem;}
 
 /* -------------------FAQ--------------------- */
 
-.container1{
-	max-width: 980px;
-}
 
 
 .faq{
@@ -195,12 +192,12 @@ display: none;
 	#slidePlayer{min-height:350px;overflow:hidden;clear:both;}
 }
 @media (max-width: 500px){
-	#row0,#headVidWrap,.container1{padding:0px!important;}
+	#row0,#headVidWrap,.container{padding:0px!important;}
 	#slidePlayer{min-height:300px;overflow:hidden;clear:both;}
 	#slideTxt{line-height:2.5rem;}
 }
 @media (min-width: 576px){
-	.container1 {
+	.container {
 		max-width: 100% !important;
 	}
 }
