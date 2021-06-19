@@ -178,6 +178,7 @@ section{
 }
 
 .accordion-item:target .accordion-link .remove-outline{
+	display: none;
 	display: block;
 }
 
