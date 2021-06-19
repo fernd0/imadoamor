@@ -55,6 +55,7 @@ h2{line-height:2.7rem;}
 .bonus-content{clear:both;font-size:1.4rem;overflow:hidden;padding-top:20px;text-align:center;}
 .bonustag{clear:both;color:#fff;font-size:1.6rem;font-weight:bold;margin-bottom:20px;text-align:center;text-transform:uppercase;width:100%;}
 #featured-wrap{margin:0 auto;max-width:614px;width:90%;}
+#cb-info{font-size:0.8rem;margin:0 auto;max-width:645px;padding:1rem;width:100%;}
 #footer{color:#666;font-size:0.8rem;text-align:center;}
 #footer ul{margin:0;padding:0;}
 #footer ul li{display:inline;font-size:0.8rem;margin:10px;}
@@ -63,6 +64,9 @@ h2{line-height:2.7rem;}
 #cta-wrapper{margin:15px 0;}
 #slidePlayer{width:100%;min-height:400px;background-color:#fff;text-align:center;font-size:2rem;display:table;padding:10px;}
 #slideTxt{display:table-cell;text-align:center;vertical-align:middle;}
+#newAudioPlayer{height:0px!important;}
+#playBtnScreen{max-width:724px;cursor:pointer;height:100%;display:none;}
+#toggleMute,#playPause{width:50%;float:left;border:1px solid #cec58f;text-align:center;cursor:pointer;color:#b7aa55;background:#e8da7c;}
 #headVidWrap{
 	max-width: 720px;
 }
@@ -90,6 +94,8 @@ h2{line-height:2.7rem;}
     border: none;
 	width: 100%;
 }
+
+/* -------------------FAQ--------------------- */
 
 .faq{
 	background-color: black;
