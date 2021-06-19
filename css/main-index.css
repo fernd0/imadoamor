@@ -106,11 +106,12 @@ section{
 	width: 100%;
 	max-width: 80rem;
 	margin: 60% auto;
-	padding: 0 1.5rem;
+	padding: 30% 1.5rem;
+	padding-bottom: 10%;
 }
 
 .accordion-item{
-	background-color: #94989d;
+	background-color: #fff;
 	border-radius: .4rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
