@@ -95,6 +95,15 @@ h2{line-height:2.7rem;}
 	width: 100%;
 }
 
+/* -------------------FAQ--------------------- */
+
+
+
+
+.faq{
+	background-color: black;
+}
+
 .bt-faq{
 	margin:8px 0;
 	text-align: left;
@@ -114,6 +123,28 @@ h2{line-height:2.7rem;}
 	background-color: #121212;
 }
 
+
+.icon-faq{
+	font-size: 28px;
+	font-weight: bold;
+	float: right;
+	transition: .4s;
+	color: #ff007f;
+}
+
+.p-faq{
+	margin-top: 20px;
+display: none;
+}
+
+.rotate {
+	
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+
+}
+
+
 #preMessage{
 	font-weight: bold;
 }
@@ -121,6 +152,12 @@ h2{line-height:2.7rem;}
 #playBtnScreen{max-width:724px;cursor:pointer;height:100%;display:none}
 
 #playPause,#toggleMute{width:50%;float:left;border:1px solid #cec58f;text-align:center;cursor:pointer;color:#b7aa55;background:#e8da7c}
+
+@media only screen and (max-width: 480px){
+	.bt-faq {
+		font-size: 15px;
+	}
+}
 
 @-webkit-keyframes color_change {
 	from { background-color: #e2542f; }
