@@ -79,6 +79,11 @@ h2{line-height:2.7rem;}
 .strike{
 	text-decoration: line-through;
 }
+
+.container{
+	max-width: 980px;
+}
+
 #preMessage{
 	font-weight: bold;
 }
