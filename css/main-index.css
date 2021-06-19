@@ -111,8 +111,7 @@ section{
 	width: 100%;
 	max-width: 80rem;
 	margin: 60% auto;
-	padding: 60% 1.5rem;
-	padding-bottom: 10%;
+	padding: 0 1.5rem;
 }
 
 .accordion-item{
