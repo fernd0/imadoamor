@@ -133,9 +133,73 @@ h2{line-height:2.7rem;}
 
 .p-faq{
 	margin-top: 20px;
-	display: none;
+display: none;
 }
 
+.rotate {
+	
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+
+}
+
+
+#preMessage{
+	font-weight: bold;
+}
+#playBtnScreen img{width:100%}
+#playBtnScreen{max-width:724px;cursor:pointer;height:100%;display:none}
+
+#playPause,#toggleMute{width:50%;float:left;border:1px solid #cec58f;text-align:center;cursor:pointer;color:#b7aa55;background:#e8da7c}
+
+@-webkit-keyframes color_change {
+	from { background-color: #e2542f; }
+	to { background-color: #e8da7c; }
+}
+@-moz-keyframes color_change {
+	from { background-color: #e2542f; }
+	to { background-color: #e8da7c; }
+}
+@-ms-keyframes color_change {
+	from { background-color: #e2542f; }
+	to { background-color: #e8da7c; }
+}
+@-o-keyframes color_change {
+	from { background-color: #e2542f; }
+	to { background-color: #e8da7c; }
+}
+@keyframes color_change {
+	from { background-color: #e2542f; }
+	to { background-color: #e8da7c; }
+}
+
+.blinker {
+	background-color: #e8da7c;
+	-webkit-animation: color_change .5s infinite alternate;
+	-moz-animation: color_change .5s infinite alternate;
+	-ms-animation: color_change .5s infinite alternate;
+	-o-animation: color_change .5s infinite alternate;
+	animation: color_change .5s infinite alternate;
+}
+
+@media screen and (max-width: 800px){
+	#top-bar .row{padding:0px;}
+	#top-bar{padding-bottom:20px;}
+}
+@media screen and (max-width: 700px){
+	#header-tag{margin:0px auto 10px;}
+	#slidePlayer{min-height:350px;overflow:hidden;clear:both;}
+}
+@media (max-width: 500px){
+	#row0,#headVidWrap,.container{padding:0px!important;}
+	#slidePlayer{min-height:300px;overflow:hidden;clear:both;}
+	#slideTxt{line-height:2.5rem;}
+}
+@media (min-width: 576px){
+	.container {
+		max-width: 100% !important;
+	}
+}
 body{color:#000;}
 .txt-red{color:#D60000;}
 .txt-wht{color:#fff;}
