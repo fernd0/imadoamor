@@ -121,7 +121,7 @@ section{
 	font-size: 1.6rem;
 	color: rgba(255, 255, 255, .8);
 	text-decoration: none;
-	background-color: #aeeefc;
+	background-color: #fff;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -141,7 +141,7 @@ section{
 	max-height: 0;
 	overflow: hidden;
 	position: relative;
-	background-color: #212838;
+	background-color: #fff;
 	transition: max-height 650ms;
 }
 
