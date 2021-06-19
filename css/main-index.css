@@ -75,6 +75,14 @@ h2{line-height:2.7rem;}
     margin: 0 auto;
     padding: 20px;
 }
+
+.container{
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .fullWidth{
 	width: 100%;
 }
