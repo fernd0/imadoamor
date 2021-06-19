@@ -71,15 +71,19 @@ h2{line-height:2.7rem;}
 	max-width: 720px;
 }
 .centerDiv{
-	margin: auto;
-	width: 60%;
-	padding: 10px;
+	margin: 0px auto;
 }
 .fullWidth{
 	width: 100%;
 }
 .strike{
 	text-decoration: line-through;
+}
+
+.container{
+	margin: auto;
+	width: 60%;
+	padding: 10px;
 }
 
 .card-body {
