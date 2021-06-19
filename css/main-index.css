@@ -175,11 +175,11 @@ section{
 	max-height: 20rem;
 }
 
-.accordion-item:target .accordion-link .ion-md-add{
+.accordion-item:target .accordion-link .add-outline{
 	display: none;
 }
 
-.accordion-item:target .accordion-link .ion-md-remove{
+.accordion-item:target .accordion-link .remove-outline{
 	display: block;
 }
 
