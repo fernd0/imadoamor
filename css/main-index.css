@@ -416,6 +416,55 @@ h2{line-height:2.7rem;}
 	height:auto
    }
 
+   .mobileCanvas .sc-widget {
+	padding:20px 0
+   }
+   .mobileCanvas .question-holder1 .questions-content {
+	padding-right:0
+   }
+   .mobileCanvas .question-holder1 .active-question .content-questions {
+	padding:0 10px 21px 32px !important
+   }
+   .mobileCanvas .question-holder2 .questions-content {
+	padding-right:0
+   }
+   .mobileCanvas .question-holder2 .active-question .content-questions {
+	padding:0 10px 20px 15px !important
+   }
+   .mobileCanvas .question-holder3 .questions-content {
+	padding-right:0
+   }
+   .mobileCanvas .question-holder3 .active-question .content-questions {
+	padding:0 10px 21px 32px !important
+   }
+   .mobileCanvas .question-holder4 .questions-content {
+	padding-right:0
+   }
+   .mobileCanvas .question-holder4 .active-question .content-questions {
+	padding:0 10px 13px 32px !important
+   }
+   .sc-headline,
+   .sc-text,
+   .sc-bullet,
+   .sc-button,
+   .sc-button-row,
+   .sc-divider {
+	padding-left:40px;
+	padding-right:40px
+   }
+   .sc-headline {
+	overflow-wrap:break-word
+   }
+   .sc-headline h1,
+   .sc-headline h2,
+   .sc-headline h3 {
+	line-height:inherit;
+	margin-bottom:inherit
+   }
+   .sc-widget {
+	padding:20px 40px
+   }
+
 @-webkit-keyframes color_change {
 	from { background-color: #e2542f; }
 	to { background-color: #e8da7c; }
