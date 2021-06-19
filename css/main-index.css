@@ -71,7 +71,9 @@ h2{line-height:2.7rem;}
 	max-width: 720px;
 }
 .centerDiv{
-	margin: 0px auto;
+	width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 .fullWidth{
 	width: 100%;
