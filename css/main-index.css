@@ -120,7 +120,7 @@ h2{line-height:2.7rem;}
 	margin: 0 10px 0 0;
 	width: 30px;
 	height: 30px;
-	background: url('images/plus.png') no-repeat 8px 7px #6db5ff;
+	background: url('../images/plus.png') no-repeat 8px 7px #6db5ff;
 	border-radius: 50%;
 	float: left;
 	transition: all .5s ease-in;
