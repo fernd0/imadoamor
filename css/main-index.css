@@ -87,6 +87,12 @@ h2{line-height:2.7rem;}
 
 #playPause,#toggleMute{width:50%;float:left;border:1px solid #cec58f;text-align:center;cursor:pointer;color:#b7aa55;background:#e8da7c}
 
+.sc-widget{
+	display: inline;
+    padding-right: 28px;
+    color: #afbcc4;
+}
+
 @-webkit-keyframes color_change {
 	from { background-color: #e2542f; }
 	to { background-color: #e8da7c; }
