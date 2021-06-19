@@ -174,11 +174,11 @@ section{
 	max-height: 20rem;
 }
 
-.accordion-item:target .accordion-link #add-outline{
+.accordion-item:target .accordion-link ion-icon[name=add-outline]{
 	display: none;
 }
 
-.accordion-item:target .accordion-link #remove-outline{
+.accordion-item:target .accordion-link ion-icon[name=remove-outline]{
 	display: block;
 }
 
