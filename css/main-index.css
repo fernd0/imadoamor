@@ -96,7 +96,7 @@ h2{line-height:2.7rem;}
 section{
 	width: 100%;
 	height: 10vh;
-	background-color: #cff4fc;
+	background-color: #155aaa;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -110,7 +110,7 @@ section{
 }
 
 .accordion-item{
-	background-color: #aeeefc;
+	background-color: #155aaa;
 	border-radius: .4rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
@@ -157,7 +157,7 @@ section{
 }
 
 .answer p{
-	color: rgba(255, 255, 255, .6);
+	color: #000;
 	font-size: 1.4rem;
 	padding: 2rem;
 }
