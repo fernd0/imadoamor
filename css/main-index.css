@@ -179,7 +179,7 @@ section{
 }
 
 .accordion-item:target .accordion-link [name=remove-outline]{
-	display: block;
+	display: none;
 }
 
 @-webkit-keyframes color_change {
