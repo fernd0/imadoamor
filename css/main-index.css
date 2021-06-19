@@ -170,6 +170,10 @@ section{
 	display: none;
 }
 
+.accordion-item:target .accordion-link .ion-md-remove{
+	display: block;
+}
+
 @-webkit-keyframes color_change {
 	from { background-color: #e2542f; }
 	to { background-color: #e8da7c; }
@@ -218,6 +222,12 @@ section{
 		max-width: 100% !important;
 	}
 }
+html{
+	font-family: 'Montserrat';
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
 body{color:#000;}
 .txt-red{color:#D60000;}
 .txt-wht{color:#fff;}
