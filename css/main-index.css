@@ -115,14 +115,8 @@ h2{line-height:2.7rem;}
 	font-family: 'Monda';
 	font-size: 18px;
 	padding: 5px 10px;
-	background: rgb(165, 165, 165);
-	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(20,20,20,1)));
-	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-	background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-	background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-	background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-	background-color: #ababab;
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(1,137,177,1) 100%);
 }
 
 .card-body {
