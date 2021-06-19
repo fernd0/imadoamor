@@ -173,11 +173,11 @@ section{
 	max-height: 20rem;
 }
 
-.accordion-item:target .accordion-link [name=add-outline]{
+.accordion-item:target .accordion-link .add-outline{
 	display: none;
 }
 
-.accordion-item:target .accordion-link [name=remove-outline]{
+.accordion-item:target .accordion-link .remove-outline{
 	display: block;
 }
 
