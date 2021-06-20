@@ -76,12 +76,6 @@ h2{line-height:2.7rem;}
     padding: 20px;
 }
 
-.accordion-body{
-	font-family: 'Montserrat';
-	font-size: 15px;
-	line-height: 30px;
-}
-
 .accordion-header{
 	margin: 8px 0;
     text-align: left;
@@ -96,18 +90,7 @@ h2{line-height:2.7rem;}
 	text-decoration: line-through;
 }
 
-.accordion-button{
-	margin:8px 0;
-	text-align: left;
-	border-radius: 15px;
-	border: none;
-	color: #fff;
-	font-family: 'Montserrat';
-	font-size: 18px;
-	padding: 5px 10px;
-}
-
-.card-body {
+.accordion-body {
 	font-family: 'Montserrat';
 	font-size: 15px;
 	color: #000000;
