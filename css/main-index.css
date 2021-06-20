@@ -76,6 +76,10 @@ h2{line-height:2.7rem;}
     padding: 20px;
 }
 
+.accordion-button, .accordion-body{
+	font-family: 'Montserrat';
+}
+
 #preMessage{
 	font-weight: bold;
 }
