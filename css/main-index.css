@@ -80,6 +80,11 @@ h2{line-height:2.7rem;}
 	font-family: 'Montserrat';
 }
 
+.rotate {	
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
 #preMessage{
 	font-weight: bold;
 }
