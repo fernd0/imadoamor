@@ -96,12 +96,6 @@ h2{line-height:2.7rem;}
 	text-decoration: line-through;
 }
 
-/* -------------------FAQ--------------------- */
-
-.faq{
-	background-color: black;
-}
-
 .accordion-button{
 	margin:8px 0;
 	text-align: left;
