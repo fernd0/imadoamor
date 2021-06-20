@@ -76,30 +76,6 @@ h2{line-height:2.7rem;}
     padding: 20px;
 }
 
-.accordion-header{
-	margin: 8px 0;
-    text-align: left;
-    border: none;
-	width: 100%;
-}
-
-.fullWidth{
-	width: 100%;
-}
-.strike{
-	text-decoration: line-through;
-}
-
-.accordion-body {
-	font-family: 'Montserrat';
-	font-size: 15px;
-	color: #000000;
-	text-align: justify;
-	line-height: 30px;
-}
-
-
-
 #preMessage{
 	font-weight: bold;
 }
