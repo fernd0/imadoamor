@@ -76,6 +76,18 @@ h2{line-height:2.7rem;}
     padding: 20px;
 }
 
+.accordion-body{
+	font-family: 'Montserrat';
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.accordion-header{
+	margin: 8px 0;
+    text-align: left;
+    border: none;
+	width: 100%;
+}
 
 .fullWidth{
 	width: 100%;
@@ -84,30 +96,13 @@ h2{line-height:2.7rem;}
 	text-decoration: line-through;
 }
 
-.card-body {
-	font-family: 'Open Sans';
-	font-size: 15px;
-	color: #797979;
-	text-align: justify;
-	line-height: 30px;
-}
-
-.card-header{
-	margin: 8px 0;
-    text-align: left;
-    border: none;
-	width: 100%;
-}
-
 /* -------------------FAQ--------------------- */
-
-
 
 .faq{
 	background-color: black;
 }
 
-.bt-faq{
+.accordion-button{
 	margin:8px 0;
 	text-align: left;
 	border-radius: 15px;
@@ -128,25 +123,6 @@ h2{line-height:2.7rem;}
 	line-height: 30px;
 }
 
-.icon-faq{
-	font-size: 28px;
-	font-weight: bold;
-	float: right;
-	transition: .4s;
-	color: #ffffff;
-}
-
-.p-faq{
-	margin-top: 20px;
-display: none;
-}
-
-.rotate {
-	
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-
-}
 
 
 #preMessage{
