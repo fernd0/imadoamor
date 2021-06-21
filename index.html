@@ -59,7 +59,7 @@
 
 <br>
 
-<style>.rc td{padding-left: 15px; text-align: left; font-family: Arial,Helvetica,sans-serif; font-size: 13px;}</style><div id='recent-customers-widget' style='display: none; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; max-width: 300px; border: 1px solid rgb(51, 51, 51); text-align: center; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px auto; padding: 0px; overflow: auto;'>
+<style>.rc td{padding-left: 15px; text-align: left; font-family: Arial,Helvetica,sans-serif; font-size: 13px;}</style><div id='recent-customers-widget' style='display: block; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; max-width: 300px; border: 1px solid rgb(51, 51, 51); text-align: center; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px auto; padding: 0px; overflow: auto;'>
 <div style='font-weight: bold; font-size: 18px; background-color: #2d72d9; color: #fff; height: 35px; line-height: 35px; border-style: solid; border-width: 1px; border-color: #FFFFFF;'>Compradores recentes</div>
 <div style='height: 87px; overflow: hidden; line-height: 130%;'>
 <marquee scrollamount='2' direction='up' loop='true' SCROLLDELAY='0' behavior='scroll' style='height:87px;'>
@@ -223,8 +223,6 @@ $(document).ready(function($) {
     setTimeout(function(){
         $('#thesalesletter').show();
         $('#FAQtop').show();
-        $('#recent-customers-widget').show();
-        $('#recent-customers-widget').css('display', 'block');
     }, 1746000);
 
 });
