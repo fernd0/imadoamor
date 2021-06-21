@@ -76,6 +76,11 @@ h2{line-height:2.7rem;}
     padding: 20px;
 }
 
+.accordion-header,
+.accordion-body{
+	font-family: 'Montserrat';
+}
+
 #FAQtop{
 	display: none;
 }
