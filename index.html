@@ -78,8 +78,8 @@
 
 <br>
 
-<section>
-  <div id="containerDepo" class="containerDepoimentos" style="display: none;">
+<section id="depoimentos" style="display: none;">
+  <div class="containerDepoimentos">
     <div class="left"></div>
     <div class="right">
       <div class="content">
@@ -88,11 +88,11 @@
       </div>
     </div>
   </div>
-    <div id="containerDepo2" class="container" style="display: none;">
+    <div class="container">
     <div class="left2"></div>
   </div>
   </div>
-    <div id="containerDepo3" class="container" style="display: none;">
+    <div class="container">
     <div class="left3"></div>
   </div>
 </section>
@@ -259,9 +259,7 @@ $(document).ready(function($) {
         $('#thesalesletter').show();
         $('#FAQtop').show();
         $('#recent-customers-widget').css("display", "block");
-        $('#containerDepo').show();
-        $('#containerDepo2').show();
-        $('#containerDepo3').show();
+        $('#depoimentos').show();
     }, 1746000);
 
 });
