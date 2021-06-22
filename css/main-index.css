@@ -83,6 +83,10 @@ h2{line-height:2.7rem;}
     display: block;
 }
 
+img{
+	border-style: none;
+}
+
 #depoimentos{
 	position: relative;
 	width: 100%;
