@@ -76,18 +76,6 @@ h2{line-height:2.7rem;}
     padding: 20px;
 }
 
-#headlineFoto{
-	background-color: rgba(1,137,177,1);
-	width: 100%;
-    max-width: 600px;
-    margin: 10px auto 30px;
-    display: block;
-}
-
-img{
-	border-style: none;
-}
-
 #depoimentos{
 	position: relative;
 	width: 100%;
