@@ -15,7 +15,6 @@ img{width:100%;}
 #top-bar-bg{
 	background: #D66D75;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
 }
 #header-tag{margin:10px auto;max-width:724px;width:100%;}
