@@ -13,8 +13,7 @@ img{width:100%;}
 .txt-shadow{text-shadow:1px 2px 3px rgba(0, 0, 0, 0.5);}
 #top-bar{background:rgba(255,86,71,1);background:-moz-linear-gradient(top, rgba(255,86,71,1) 0%, rgba(255,241,153,1) 54%, rgba(255,241,153,1) 100%);background:-webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,86,71,1)), color-stop(54%, rgba(255,241,153,1)), color-stop(100%, rgba(255,241,153,1)));background:-webkit-linear-gradient(top, rgba(255,86,71,1) 0%, rgba(255,241,153,1) 54%, rgba(255,241,153,1) 100%);background:-o-linear-gradient(top, rgba(255,86,71,1) 0%, rgba(255,241,153,1) 54%, rgba(255,241,153,1) 100%);background:-ms-linear-gradient(top, rgba(255,86,71,1) 0%, rgba(255,241,153,1) 54%, rgba(255,241,153,1) 100%);background:linear-gradient(to bottom, rgba(255,86,71,1) 0%, rgba(255,241,153,1) 54%, rgba(255,241,153,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5647', endColorstr='#fff199', GradientType=0 );overflow:hidden;width:100%;}
 #top-bar-bg{
-	background: #D66D75;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(180deg, #ae3dff, #a83cf8, #a23af1, #9d39ea, #9738e3, #9236dc, #8c35d5, #8733ce, #8232c7, #7c30c1, #772fba, #722db3);
 	background-size: cover;
 }
 #header-tag{margin:10px auto;max-width:724px;width:100%;}
